@@ -723,7 +723,7 @@ body{
 
 }
 
-@media only screen and (max-width:773px){
+@media only screen and (max-width:736px){
     /*IMG HEADER*/
     
     .img-header .welcome h1{
@@ -740,16 +740,19 @@ body{
     /*ABOUT US*/
     .acerca-de .info-container .about-gallery{
         flex-direction: column;
+        width: 90%;
+        
     }
     .acerca-de .info-container .about-gallery2{
         flex-direction: column;
+        width: 90%;
     }
     .acerca-de .info-container .about-gallery img{
         width: 100%;
     }
     /*CONCERTS*/
     .our-projects .container-project .project-img img{
-        width: 80%;
+        width: 45%;
         margin-bottom: 30px;
     }
     .our-projects .container-project .project-title h2{
@@ -762,12 +765,12 @@ body{
         font-size: 30px;
     }
     .acerca-de .info-container h2{
-        font-size: 60px;
+        font-size: 50px;
     }
 
 }
 
-@media only screen and (max-width:590px){
+@media only screen and (max-width:590¿px){
     /*IMG HEADER*/
 
     .img-header .welcome h1{
